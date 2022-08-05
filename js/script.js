@@ -11,7 +11,7 @@ elForm.addEventListener("submit", function(evt){
 
   array.push(writeTextValue);
 
-  if (writeTextValue == array) {
+  for (writeTextValue of array) {
    
     let li = document.createElement("li");
     li.textContent = array;
